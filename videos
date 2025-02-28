@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos - Clark Wang</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #1a2980, #26d0ce);
+            color: white;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(to right, #ff512f, #dd2476);
+            padding: 15px 20px;
+        }
+        nav img {
+            width: 60px;
+            cursor: pointer;
+        }
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            padding: 10px 15px;
+            transition: background 0.3s, color 0.3s;
+        }
+        .nav-links a:hover {
+            background: #f4a261;
+            color: black;
+            border-radius: 5px;
+        }
+        .section {
+            padding: 50px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .video-frame {
+            width: 280px;
+            height: 160px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+        .instagram-section {
+            padding: 30px;
+            text-align: center;
+        }
+        .instagram-section a {
+            color: #f4a261;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#"><img src="logo.png" alt="Logo"></a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="videos.html">Videos</a>
+        </div>
+    </nav>
+    
+    <div class="section">
+        <h1>Clark Wang's Videos</h1>
+        <p>Stay tuned for inspiring and engaging content.</p>
+    </div>
+    
+    <div class="section video-container">
+        <div class="video-frame">Coming Soon</div>
+        <div class="video-frame">Coming Soon</div>
+        <div class="video-frame">Coming Soon</div>
+    </div>
+    
+    <div class="instagram-section">
+        <h2>Follow Me on Instagram</h2>
+        <p>Stay updated with my latest posts and videos.</p>
+        <p>Visit: <a href="#">Insert Instagram URL Here</a></p>
+    </div>
+</body>
+</html>
