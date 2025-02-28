@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Karl Anderson for Valedictorian</title>
+    <title>Clark Wang for Valedictorian</title>
     <style>
         body {
             font-family: 'Georgia', serif;
@@ -12,6 +12,33 @@
             background: linear-gradient(to right, #1a1a2e, #16213e);
             color: white;
             text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            padding: 15px 20px;
+        }
+        nav img {
+            width: 60px;
+            cursor: pointer;
+        }
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            padding: 10px 15px;
+            transition: background 0.3s, color 0.3s;
+        }
+        .nav-links a:hover {
+            background: #f4a261;
+            color: black;
+            border-radius: 5px;
         }
         header {
             padding: 50px 20px;
@@ -23,6 +50,7 @@
             position: absolute;
             top: 20px;
             left: 20px;
+            cursor: pointer;
         }
         h1 {
             font-size: 3.5rem;
@@ -55,33 +83,43 @@
     </style>
 </head>
 <body>
+    <nav>
+        <a href="#"><img src="images.jpeg" alt="Logo"></a>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#videos">Videos</a>
+        </div>
+    </nav>
+
     <header>
-        <img src="profile.jpg" alt="Clark Wang">
-        <h1>Vote Clark Wang for Valedictorian!</h1>
-        <h2>"Leading with Harmony, Speaking with Passion!"</h2>
+        <h1>Clark Wang for Valedictorian</h1>
+        <h2>"See more, Say less" - Your most qualified candidate</h2>
     </header>
-    
-    <div class="section">
+
+    <div id="about" class="section">
         <h2>About Me</h2>
-        <p>Passionate about music, leadership, and academic excellence, I strive to create harmony in every aspect of life.</p>
+        <p>Passionate about music, leadership, and academic excellence, I strive to create harmony in every aspect of life</p>
         <div class="image-container">
-            <img src="about.jpg" alt="Photograph of Clark Wang">
+            <img src="about.jpg" alt="Clark Wang">
         </div>
     </div>
-    
+
     <div class="section">
         <h2>Why Vote for Me?</h2>
+        <h3>Don't make this vote a popularity contest! Vote for who truly qualifies :)</h3>
         <ul>
             <li>Proven leadership in academics and extracurriculars</li>
             <li>Committed to unity and inspiration</li>
             <li>Bringing the rhythm of success to our class</li>
         </ul>
     </div>
-    
+
     <div class="section">
         <h2>Make Your Voice Heard!</h2>
-        <p>Your vote is the key to making our final year unforgettable.</p>
-        <a href="#" class="cta">Vote Karl Anderson</a>
+        <p>Your vote is the key to making our final year unforgettable</p>
+        <a href="#" class="cta">Vote Clark Wang</a>
     </div>
 </body>
 </html>
+
