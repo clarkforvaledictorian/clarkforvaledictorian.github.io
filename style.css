@@ -1,0 +1,57 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+}
+
+/* Home Page Background */
+.home-page {
+    background-image: url('conduct.png'); /* Change to your image */
+}
+
+/* About Page Background */
+.about-page {
+    background-image: url('about-background.jpg'); /* Change to your image */
+}
+
+/* Videos Page Background */
+.videos-page {
+    background-image: url('videos-background.jpg'); /* Change to your image */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    padding: 15px 20px;
+}
+
+nav img {
+    width: 60px;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+    background: #f4a261;
+    color: black;
+    border-radius: 5px;
+}
